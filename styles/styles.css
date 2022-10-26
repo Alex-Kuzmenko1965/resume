@@ -12,37 +12,46 @@ body {
 .main-content {
   background: #FFFFFF;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  padding: 105px 90px;
+  padding: 85px 90px;
 }
 /* abouth styles */
 .abouth {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .abouth-position {  
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 28px;
   line-height: 17px;
-  color: #000000;
+  color: black;
   margin-bottom: 20px;
 }
 .abouth-name {  
   font-style: normal;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 42px;
   line-height: 55px;  
-  color: #000000;
+  color: black;
   margin-bottom: 25px;
 }
 .abouth-description {  
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;  
-  width: 400px;
+  color: black;  
+  width: 500px;
+  padding-left: 0px;
+  margin-left: 17px;
 }
-  
+
+.abouth-item {
+  color:blue;
+}
+
+.abouth-txt {
+  color: black;  
+}
 /* project styles */
 .projects {
   margin-bottom: 50px;
@@ -95,14 +104,14 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;  
-  color: #FB6D3A;
+  color: magenta;
 }
 .period {
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 12px;
   line-height: 15px;
-  color: #A8A8A8;
+  color:blue;
   margin-bottom: 10px;
 }
 .work-list {
@@ -163,7 +172,7 @@ body {
   margin-left: 17px;  
 }
 .skills-item {
-  color: #FB6D3A;
+  color: magenta;
 }
 .skills-txt {
   color: #fff;
