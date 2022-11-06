@@ -80,11 +80,11 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 24px;
-  color: black;
+  color: red;
 }
 .project-link {
   margin-left: 10px;
-  color: blue;
+  color: red;
 }
 
 /* work styles */
