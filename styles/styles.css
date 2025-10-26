@@ -8,6 +8,11 @@ body {
   display: flex;
   flex-direction: row-reverse;  
 }
+@media (max-width: 700px) {
+	.main {
+		display: block;
+	}
+}
 /* main-content styles */
 .main-content {
   background: #FFFFFF;
