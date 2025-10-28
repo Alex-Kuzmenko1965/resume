@@ -1,7 +1,8 @@
 /* Підключення шрифтів */
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #F5F7FA;
+  /* background-color: #F5F7FA; */
+	background-color: #1E2939;
 }
 /* main styles */
 .main {
@@ -11,6 +12,9 @@ body {
 @media (max-width: 700px) {
 	.main {
 		display: block;
+	}
+	.furniture-img {
+		width: 600px;
 	}
 }
 /* main-content styles */
@@ -188,4 +192,16 @@ body {
   font-weight: lighter;
   font-size: 14px;
   line-height: 24px;
+}
+.furniture-position {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+	margin-bottom: 10px;
+}
+/* furniture */
+.furniture-img {
+	width: 900px;
 }
