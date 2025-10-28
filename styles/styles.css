@@ -21,7 +21,7 @@ body {
 .main-content {
   background: #FFFFFF;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  padding: 85px 90px;
+  padding: 85px 40px;
 }
 /* abouth styles */
 .abouth {
@@ -121,7 +121,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
-  line-height: 100%;
+  line-height: 120%;
   color:#8E949C;
 	margin: 0px 0px 8px;
 }
