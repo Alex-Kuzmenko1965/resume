@@ -13,14 +13,15 @@ body {
 	.main {
 		display: block;
 	}
-	.furniture-img {
-		width: 500px;
+	.sidebar {
+		/* margin: 40px; */
+		width: 100%;
 	}
 }
 /* main-content styles */
 .main-content {
   background: #FFFFFF;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1); */
   padding: 85px 40px;
 }
 /* abouth styles */
@@ -231,4 +232,12 @@ body {
 }
 .furniture-img {
 	width: 100%;
+}
+.button {
+	margin-top: 20px;
+	padding: 0px;
+	border: 0px;
+	height: 30px;
+	width: 30px;
+	color: #000000;
 }
