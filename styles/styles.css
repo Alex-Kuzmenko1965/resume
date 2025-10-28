@@ -20,6 +20,19 @@ body {
 		display: inline-block;
 	}
 }
+@media (max-width: 601px) {
+	.main {
+		display: block;
+	}
+
+	.sidebar {
+		display: block;
+	}
+
+	.sidebar-row {
+		display: block;
+	}
+}
 /* main-content styles */
 .main-content {
   background: #FFFFFF;
@@ -231,4 +244,9 @@ body {
 	height: 30px;
 	width: 30px;
 	color: #000000;
+}
+.click {
+	display: flex;
+	display: inline;
+	justify-content: flex-end;
 }
