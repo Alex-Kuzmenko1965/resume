@@ -9,12 +9,12 @@ body {
   display: flex;
   flex-direction: row-reverse;  
 }
-@media (max-width: 700px) {
+@media (max-width: 768px) {
 	.main {
 		display: block;
 	}
 	.furniture-img {
-		width: 600px;
+		width: 500px;
 	}
 }
 /* main-content styles */
@@ -31,7 +31,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
-  line-height: 17px;
+  line-height: 130%;
   color: black;
   margin-bottom: 20px;
 }
@@ -39,7 +39,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 42px;
-  line-height: 55px;  
+  line-height: 130%;  
   color: black;
   margin-bottom: 25px;
 }
@@ -47,15 +47,16 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 24px;
-  color: black;  
-  width: 500px;
+  line-height: 130%;
+  color: black;
   padding-left: 0px;
   margin-left: 17px;
+	margin-bottom: 40px;
 }
 
 .abouth-item {
   color:#8E949C;
+	margin-bottom: 8px;
 }
 
 .abouth-txt {
@@ -63,7 +64,7 @@ body {
 }
 /* project styles */
 .projects {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .title {
   font-style: normal;
@@ -71,7 +72,7 @@ body {
   font-size: 22px;
   line-height: 27px;
   color: #000000;
-  margin-bottom: 10px;
+	margin-bottom: 6px;
 }
 .project-list {
   padding: 0;
@@ -105,7 +106,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 130%;
   color: #000000;
   margin-bottom: 10px;
 }
@@ -113,23 +114,27 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;  
+  line-height: 130%;  
   color: red;
 }
 .period {
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
-  line-height: 15px;
+  line-height: 100%;
   color:#8E949C;
-  margin-bottom: 10px;
+	margin: 0px 0px 8px;
 }
 .work-list {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #595959;
+  margin: 0px 0px 17px;
+}
+.work-item {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 130%;
+	margin-bottom: 7px;
+	color: #595959;
 }
 /* education styles */
 .education {}
@@ -161,7 +166,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
-  line-height: 27px;
+  line-height: 150%;
   margin-bottom: 10px;
 }
 .contact-type {
@@ -169,7 +174,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 180%;
   margin-right: 10px;
   
 }
@@ -191,17 +196,36 @@ body {
   font-style: normal;
   font-weight: lighter;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 180%;
 }
+.hobby-list {
+	color: #fff;
+	padding-left: 0px;
+	margin-left: 17px;
+}
+
+.hobby-item {
+	color: orange;
+}
+
+.hobby-txt {
+	color: #fff;
+	padding-left: 0px;
+	margin-left: 17px;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 14px;
+	line-height: 180%;
+}
+/* furniture */
 .furniture-position {
 	font-style: normal;
 	font-weight: 700;
 	font-size: 16px;
-	line-height: 20px;
+	line-height: 150%;
 	color: #000000;
 	margin-bottom: 10px;
 }
-/* furniture */
 .furniture-img {
 	width: 900px;
 }
