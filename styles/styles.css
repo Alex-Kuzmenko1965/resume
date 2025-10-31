@@ -69,7 +69,7 @@ body {
 	margin-bottom: 40px;
 }
 .abouth-item {
-  color:#8E949C;
+  color:red;
 	margin-bottom: 8px;
 }
 .abouth-txt {
@@ -197,7 +197,7 @@ body {
   margin-left: 17px;  
 }
 .skills-item {
-  color: orange;
+  color: #8E949C;
 }
 .skills-txt {
   color: #fff;
@@ -214,7 +214,7 @@ body {
 	margin-left: 17px;
 }
 .hobby-item {
-	color: orange;
+	color: #8E949C;
 }
 .hobby-txt {
 	color: #fff;
